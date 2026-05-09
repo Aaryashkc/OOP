@@ -10,5 +10,9 @@ class Cat(Admin):
 admin1= Admin()
 cat1= Cat()
 
+
 admin1.signed_in()
 cat1.signed_in()
+
+print(isinstance(cat1, Cat))
+print(isinstance(cat1, User))
