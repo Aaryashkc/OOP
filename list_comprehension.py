@@ -11,6 +11,10 @@ super_dict= {
     'c':789,
 }
 
+my_set= {char+1 for char in range(0, 100)}
+
+print(my_set)
+
 my_dict = {key:value**2 for key,value in super_dict.items()}
 # my_dict1 = {key:value**2 for key,value in super_dict()}
 
