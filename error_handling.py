@@ -15,3 +15,10 @@ while True:
     else:
         print("Age successfully set!: thanks for your data muheheheheh")
         break
+
+def sum(num1, num2, num3):
+    try:
+        return num1 + num2 + num3
+    except TypeError as err:
+        print(f"this has error man{err}")
+print(sum(1,2,'3'))
